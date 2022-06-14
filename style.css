@@ -16,6 +16,10 @@ a{
     color:aquamarine
 }
 
+.alcentro {
+  align-content: flex-end;
+}
+
 .leftmenu {
     display: flex;
     flex-direction: column;
@@ -190,6 +194,10 @@ img {
        grid-area: footer;
     }
 
+    .espacio1 {
+      padding: 5%;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -221,42 +229,12 @@ img {
     footer {
        grid-area: footer;
     }
-
-    .divmoviendo {
-      width: 100px;
-      height: 100px;
-      transition: height 2s, width 1s;
-    
+    #burger {
+      display:none
     }
-    .divmoviendo:hover {
-      height: 240px; width: 240px;
+    .espacio1 {
+      padding: 0%;
     }
 
-
-    
-    .typing h1 {
-      overflow: hidden; /* Ensures the content is not revealed until the animation */
-      border-right: .15em solid orange; /* The typwriter cursor */
-      white-space: nowrap; /* Keeps the content on a single line */
-      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-      letter-spacing: .15em; /* Adjust as needed */
-      animation: 
-        typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
-        animation-iteration-count: infinite;
-        animation-duration: 5s;
     }
-    
-    /* The typing effect */
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 35% }
-    }
-    
-    /* The typewriter cursor effect */
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: white; }
-    }
-}
 
