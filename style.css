@@ -93,13 +93,7 @@ a {
 ul {
   list-style: none;
   font-size: 0;
-}
-
-li {
-  display: inline-block;
-  width: 8%;
-  position: relative;
-  font-size: 14px;
+  /* truco por el uso de inline-block*/
 }
 
 ul ul {
@@ -113,6 +107,13 @@ ul ul li {
 
 ul li:hover ul {
   display: block;
+}
+
+li {
+  display: inline-block;
+  width: 8%;
+  position: relative;
+  font-size: 14px;
 }
 
 img {

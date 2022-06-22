@@ -80,7 +80,18 @@ a{
 
   ul {
     list-style: none;
-    font-size:0 /* truco por el uso de inline-block*/
+    font-size:0; /* truco por el uso de inline-block*/
+    ul{
+        position: absolute;
+        display: none;
+
+        li{
+            display: block;
+        }
+    }
+    li:hover ul{
+        display:block;
+    }
  }
  li {
     display: inline-block;
@@ -88,18 +99,6 @@ a{
     position:relative;
     font-size: 14px
  }
- ul ul {
-    position: absolute;
-    display: none;
- }
- ul ul li {
-    display: block;
- }
- ul li:hover ul {
-    display:block;
- }
- 
-
 
 
 
