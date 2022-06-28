@@ -1,5 +1,5 @@
 body {
-  background-image: url("./img/background.jpg");
+  background-image: url("../img/background.jpg");
 }
 
 h1 {
@@ -36,7 +36,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("./img/menubackground.png");
+  background-image: url("../img/menubackground.png");
   background-repeat: no-repeat;
   padding: 1em;
   width: 238px;
@@ -190,7 +190,10 @@ img {
     -webkit-column-gap: 150px;
             column-gap: 150px;
     row-gap: 200px;
-        grid-template-areas: "header" "nav" "contenido" "footer";
+        grid-template-areas: "header"
+ "nav"
+ "contenido"
+ "footer";
   }
   header {
     -ms-grid-row: 1;
@@ -228,7 +231,9 @@ img {
     -webkit-column-gap: 150px;
             column-gap: 150px;
     row-gap: 200px;
-        grid-template-areas: "header header header" "nav contenido contenido" "footer footer footer";
+        grid-template-areas: "header header header"
+ "nav contenido contenido"
+ "footer footer footer";
   }
   header {
     -ms-grid-row: 1;
