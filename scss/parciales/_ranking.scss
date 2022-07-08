@@ -1,0 +1,20 @@
+#top {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    tr{
+      background-color: #ddd;
+      @include mixample;
+  }
+  th {
+    @include mixample;
+    text-align: center;
+    background-color: map-get($colores, "aqua" );
+    color: black;
+  }
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+    
+  }

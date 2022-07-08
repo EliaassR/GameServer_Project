@@ -1,0 +1,45 @@
+@media screen and (min-width: 1200px) {
+    section {
+    
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+    
+    
+    
+    
+    }
+    }
+    
+    @media screen and (min-width: 320px) { 
+    
+        section {
+    
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+    
+        
+        
+        
+        }
+        }
+
+.cardshop1 {
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.cardshop2 {
+    @extend .cardshop1;
+}
+
+.cardshop3 {
+    @extend .cardshop1;
+    --animate-duration: 2.5s;
+}
