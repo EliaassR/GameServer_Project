@@ -165,33 +165,6 @@ li {
   font-size: 14px;
 }
 
-.leftmenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url("../img/menubackground.png");
-  background-repeat: no-repeat;
-  padding: 1em;
-  width: 238px;
-  height: 239px;
-  border: solid;
-  border: thick double black;
-  margin: 1% 2%;
-}
-
-.lileftmenu {
-  margin: 30% 0;
-}
-
 #top {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -295,15 +268,15 @@ li {
 }
 
 .slide-1 {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/587/550/452/firewatch-video-game-art-minimalism-simple-hd-wallpaper-preview.jpg");
+  background-image: url("../img/slider1.jpg");
 }
 
 .slide-2 {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/645/355/633/video-games-video-game-art-digital-art-genshin-impact-mask-hd-wallpaper-preview.jpg");
+  background-image: url("../img/slider2.jpg");
 }
 
 .slide-3 {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/864/806/346/minimalism-digital-art-simple-cat-wallpaper-preview.jpg");
+  background-image: url("../img/slider3.jpg");
 }
 
 img {

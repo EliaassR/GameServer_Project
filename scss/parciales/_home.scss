@@ -18,13 +18,13 @@
   }
   
   .slide-1 {
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/587/550/452/firewatch-video-game-art-minimalism-simple-hd-wallpaper-preview.jpg");
+    background-image: map-get($slider, "slider1" );
   }
   .slide-2 {
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/645/355/633/video-games-video-game-art-digital-art-genshin-impact-mask-hd-wallpaper-preview.jpg");
+    background-image: map-get($slider, "slider2" );
   }
   .slide-3 {
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/864/806/346/minimalism-digital-art-simple-cat-wallpaper-preview.jpg");
+    background-image: map-get($slider, "slider3" );
   }
   
 
