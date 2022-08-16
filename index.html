@@ -1,114 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name "description" content="Servicio de administracion y desarrollo de servidores para videojuegos">
-    <meta name="keywords" content="Juegos,games,servidores,game server,online game, mmorpg"/>
-    <meta name="author" content="Game Server Project" />
-    <title>GameServer Project</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  </head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name "description" content="Servicio de administracion y desarrollo de servidores para videojuegos">
+	<meta name="keywords" content="Juegos,games,servidores,game server,online game, mmorpg" />
+	<meta name="author" content="Game Server Project" />
+	<title>GameServer Project</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'
+		type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
 <body>
-    <div id="grilla">
-        <header>
-        <div class="center espacio2">
-                <ul>
-            <li><a href="">Jugar!</a>
-                <ul>
-                    <li><a href="./pages/register.html">Registrate</a></li>
-                    <li><a href="./pages/descargas.html">Descargar</a></li>
-                </ul>
-            </li>
-            <li><a href="./pages/ranking.html">Ranking</a></li>
-            <li><a href="./pages/shop.html">Shop</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-        </ul>
-    </div>
+	<div id="grilla">
+		<header>
+			<div class="center espacio2">
+				<ul>
+					<li><a href="">Jugar!</a>
+						<ul>
+							<li><a href="./pages/register.html">Registrate</a></li>
+							<li><a href="./pages/descargas.html">Descargar</a></li>
+						</ul>
+					</li>
+					<li><a href="./pages/ranking.html">Ranking</a></li>
+					<li><a href="./pages/shop.html">Shop</a></li>
+					<li><a href="./pages/contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+			<div class="center textcolor espacio1 animate__animated animate__bounce">
+				<h1>GameServer Project</h1>
+				<img src="./img/logo.png" class="img-fluid" alt="alternatetext">
+			</div>
+		</header>
+		<nav ID="burger" class="navbar bg-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Game Server Project</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="./pages/ranking.html">Ranking</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./pages/shop.html">Shop</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Jugar!
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+									<li><a class="dropdown-item" href="./pages/register.html">Registrate</a></li>
+									<li><a class="dropdown-item" href="./pages/descargas.html">Descargar</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<nav>
+			<div class="leftmenu">
+				<a href="./pages/descargas.html">Descargas</a>
+				<a href="./pages/ranking.html">Ranking</a>
+				<a href="./pages/shop.html">Shop</a>
+				<a href="./pages/contacto.html">Contacto</a></div>
+		</nav>
+		<section>
+			<div class="slider-container container-md">
+				<div class="menu">
+					<label for="slide-dot-1"></label>
+					<label for="slide-dot-2"></label>
+					<label for="slide-dot-3"></label>
+				</div>
+				<input id="slide-dot-1" type="radio" name="slides" checked>
+				<div class="slide slide-1"></div>
 
+				<input id="slide-dot-2" type="radio" name="slides">
+				<div class="slide slide-2"></div>
 
-                 <div class="center textcolor espacio1 animate__animated animate__bounce">
-                     <h1>GameServer Project</h1>
-                <img src="./img/logo.png" class="img-fluid" alt="alternatetext"></div>
-            </header>
-
-            <nav ID="burger" class="navbar bg-light fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Game Server Project</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="./pages/ranking.html">Ranking</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="./pages/shop.html">Shop</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Jugar!
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                            <li><a class="dropdown-item" href="./pages/register.html">Registrate</a></li>
-                            <li><a class="dropdown-item" href="./pages/descargas.html">Descargar</a></li>
-                            <li>
-                              <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            <nav> 
-                    <div class="leftmenu">
-                    <a href="./pages/descargas.html">Descargas</a>
-                    <a href="./pages/ranking.html">Ranking</a>
-                    <a href="./pages/shop.html">Shop</a>
-                    <a href="./pages/contacto.html">Contacto</a></div>
-                
-            </nav>
-
-
-            <section><div class="slider-container container-md">
-  <div class="menu">
-    <label for="slide-dot-1"></label>
-    <label for="slide-dot-2"></label>
-    <label for="slide-dot-3"></label>
-  </div>
-  
-  <input id="slide-dot-1" type="radio" name="slides" checked>
-    <div class="slide slide-1"></div>
-  
-  <input id="slide-dot-2" type="radio" name="slides">
-    <div class="slide slide-2"></div>
-  
-  <input id="slide-dot-3" type="radio" name="slides">
-    <div class="slide slide-3"></div>
-</div></section>
-        <footer class="center">
-           <span class="textcolor">REDES:</span><br>
-              <a title="Instagram" href="http://www.instagram.com"><img src="./img/ig.png" alt="Instagram" /></a>
-              <a title="Facebook" href="http://www.facebook.com"><img src="./img/fb.png" alt="Facebook" /></a>
-  
-</footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+				<input id="slide-dot-3" type="radio" name="slides">
+				<div class="slide slide-3"></div>
+			</div>
+		</section>
+		<footer class="center">
+			<span class="textcolor">REDES:</span><br>
+			<a title="Instagram" href="http://www.instagram.com"><img src="./img/ig.png" alt="Instagram" /></a>
+			<a title="Facebook" href="http://www.facebook.com"><img src="./img/fb.png" alt="Facebook" /></a>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+		</script>
 </body>
+
 </html>
